@@ -35,12 +35,12 @@
             width: 100%;
             height: 100%;
             border-radius: 12px;
-            background: #FCF9EC; 
+            background: #e6ebe0; 
         }
 
         .numbers {
             font-family: 'Montserrat', sans-serif;
-            color: #4A3320;
+            color: #36c9d1;
             /* 폰트 크기를 화면 폭(vw)에 완벽하게 비례하도록 수정 */
             font-size: 15vw; 
             font-weight: 900;
@@ -50,7 +50,7 @@
 
         .label {
             font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; 
-            color: #C08A3F; 
+            color: #3e668f; 
             /* 하단 문구 크기도 화면 폭에 비례 */
             font-size: 5vw; 
             font-weight: 700;
@@ -63,12 +63,12 @@
 <div id="timer">
     <div class="widget-container"> 
         <div id="d-day-number" class="numbers">D-0</div>
-        <div class="label">GTQ id 1급</div>
+        <div class="label">포스터 모작</div>
     </div> 
 </div>
 
 <script>
-    const targetDate = new Date('Sep 18, 2026 00:00:00').getTime();
+    const targetDate = new Date('nov 10, 2026 00:00:00').getTime();
 
     let timer = setInterval(function() {
         const today = new Date().getTime();
